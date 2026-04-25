@@ -3,7 +3,7 @@ from openai import OpenAI
 
 client = OpenAI(api_key="YOUR_API_KEY")
 
-st.title("🤖 AI Content Generator")
+st.title(" AI Content Generator")
 
 content_type = st.selectbox(
     "Select Content Type",
